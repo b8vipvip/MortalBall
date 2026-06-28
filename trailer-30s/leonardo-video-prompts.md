@@ -1,208 +1,224 @@
-# 《凡人足球》30秒宣传片 Leonardo 专用版短视频提示词
+# 《凡人足球》30秒宣传片 Leonardo 分段视频提示词（动作电影版）
 
 ## 文件信息
 
-- 文件路径：`promos/trailer-30s/leonardo-video-prompts.md`
-- 用途：用于 Leonardo 逐条生成 30 秒宣传片的无声视频片段
-- 风格：写实中国国漫 + 电影级体育玄幻 + 劲爆武术动作
-- 输出建议：竖屏 9:16
-- 单条时长建议：3—5 秒
-- 注意：Leonardo 不需要生成声音，音效和音乐后期在剪映完成
-- 参考素材：统一使用已确认的何立角色图、场景统一图、片头海报、片尾海报
+- 文件路径：`promos/trailer-30s/leo-prompts.md`
+- 用途：用于 Leonardo 分段生成 30 秒宣传片视频片段
+- 画幅：竖屏 9:16
+- 单段时长建议：3—5 秒
+- 声音说明：Leonardo 不生成声音，配音、音效、BGM 后期在剪映完成
+- 风格方向：真人动作电影质感，高预算体育玄幻动作片
 
 ---
 
-## 统一生成原则
+## 一、统一风格规则
 
-1. 每条提示词只做一个核心动作，不要一条里塞太多剧情。
-2. 所有片段必须保持何立外观一致：
-   - 成年青年何立
-   - 中国青年男性
-   - 短黑发
-   - 普通但坚毅的脸
-   - 脏旧白色T恤
-   - 深色运动裤
-   - 旧球鞋
-3. 所有片段保持统一视觉风格：
-   - 写实中国国漫风格
-   - 电影感
-   - 暗蓝灰色天空
-   - 巨大足球赛场
-   - 泥地、碎草、尘土飞溅
-   - 金色符文法术和能量丝线
-4. 武术动作必须专业，融合足球动作：
-   - 抢球
-   - 闪避
-   - 变向
-   - 过人
-   - 腾空控球
-   - 凌空爆射
-5. 不要生成声音，不要自动字幕，不要画面文字。
-6. 前后使用两张宣传海报作为片头、片尾动态镜头参考。
+所有片段统一要求：
+
+- 真人动作电影质感
+- 画面清晰锐利
+- 主体明确
+- 不粗糙
+- 不低幼
+- 不漫画化
+- 何立为成年中国青年，短黑发，普通但坚毅的脸，精瘦结实，旧白色训练T恤、深色运动裤、旧球鞋
+- 场景为现代大型专业足球赛场，明亮球场灯光，蓝色夜空，清晰草地
+- 金色球道符文和能量光效必须高级、干净、清晰
+- 动作由专业动作指导与武术指导设计
+- 运镜必须服务动作，不能乱炫技
+- 每条只做一个核心动作
 
 ---
 
-## 通用负面提示词
+## 二、统一附加要求
 
-低质量，模糊，畸形手指，畸形脚，多余四肢，脸崩坏，人物比例错误，过度美颜，偶像剧滤镜，卡通夸张脸，儿童感，古装，仙侠长袍，夸张大爆炸，赛博朋克，真实品牌logo，文字乱码，字幕乱码，搞笑表情，低幼感
+后续每条视频提示词建议统一带上以下约束：
 
----
-
-## 固定参考图建议
-
-每次生成片段时尽量上传以下参考图：
-
-1. 何立角色主视觉图
-2. 场景统一图（赛场）
-3. 片头海报
-4. 片尾海报
-5. 如有需要，再补充控球/过人/腾空的定格图
+**动作设计必须专业，符合足球运动逻辑与武术发力逻辑，强调重心变化、脚步节奏、腰胯带动、手臂平衡、核心发力和动作完成后的身体收势。镜头设计必须服务动作展示，画面清晰，不要过快切换，不要遮挡主体动作。**
 
 ---
 
-## Leonardo 分段提示词
+## 三、分段提示词
 
 ---
 
-### LEO-TRAILER-01｜片头海报动态开场
+## LEO-TRAILER-01｜片头海报动态开场
 
-- 建议时长：3 秒
-- 用途：宣传片开场
-- 镜头：缓慢推近
-- 情绪：压迫、神秘、热血
-- 中文提示词：
-将《凡人足球》片头宣传海报制作成动态视频镜头。镜头从黑场后缓慢推近海报中央的何立，周围金色符文和能量丝线缓慢流动，衣角与头发被风轻微吹动，背景暗蓝灰色天空和球场灯光缓慢闪动，地面碎草和尘土轻微漂浮，整体写实中国国漫风格，电影感，神秘压迫，热血开场。不要文字，不要声音。
-- English prompt:
-Turn the opening poster of Mortal Ball into a dynamic video shot. Slow push-in from black toward He Li in the center, golden runes and energy threads slowly moving around him, hair and shirt moving slightly in the wind, dark blue-gray sky and stadium lights subtly flickering, small grass and dust particles floating gently, realistic Chinese anime style, cinematic, mysterious and powerful, no text, no sound.
+### 建议时长
+3 秒
 
----
+### 参考图
+片头宣传海报
 
-### LEO-TRAILER-02｜踩球登场
+### 镜头设计
+黑场淡入，缓慢推近何立，建立人物压迫感。
 
-- 建议时长：4 秒
-- 核心动作：何立踩球、抬眼
-- 镜头：低机位推近
-- 情绪：压迫、冷静
-- 中文提示词：
-成年青年何立站在泥泞足球赛场中央，一只脚稳稳踩住带有金色符文纹路的足球，神情冷静坚毅。镜头从低机位贴地推进，先看到旧球鞋与足球，再缓慢上移到何立的上半身和眼神，地面泥点与碎草因气流轻轻震动，球场灯光在身后亮起，写实中国国漫风格，电影感，压迫感强，不要声音。
-- English prompt:
-Adult young man He Li stands in the center of a muddy football field, one foot firmly on a soccer ball marked with subtle golden runes, expression calm and determined. Low-angle ground-level push-in shot starts from the worn shoes and the ball, then slowly rises to his upper body and eyes, mud and grass trembling slightly in the airflow, stadium lights glowing behind him, realistic Chinese anime style, cinematic, strong pressure, no sound.
+### 中文提示词
+使用片头宣传海报作为参考，生成动作电影风格动态开场。镜头从黑场淡入后缓慢推近何立，何立保持一脚踩球的稳定姿态，头发与衣角被风轻微带动，金色球道符文在他周围缓慢流动，球场灯光逐渐亮起。动作不大，但气场要强，像一部高预算动作电影的主角初登场。画面明亮精致，蓝金色调，清晰锐利，真人动作电影质感，不要文字，不要声音。
 
 ---
 
-### LEO-TRAILER-03｜武术式抢球
+## LEO-TRAILER-02｜踩球登场
 
-- 建议时长：4 秒
-- 核心动作：沉肩切入，抢球成功
-- 镜头：近景跟拍
-- 情绪：凌厉、爆发
-- 中文提示词：
-何立在激烈比赛中面对对手持球推进，突然沉肩切入，用专业足球抢断动作结合武术身法完成抢球，动作干净凌厉，身体重心压低，手臂控制平衡，脚下抢断精准。镜头近景跟拍，泥土和碎草被脚步掀起，足球周围带有细微金色法术轨迹，写实中国国漫风格，电影级体育动作感，不要声音。
-- English prompt:
-In an intense match, an opponent dribbles forward and He Li suddenly cuts in with a shoulder drop, combining a professional football tackle with martial-arts footwork to win the ball cleanly and sharply, low center of gravity, arms balancing the body, precise foot interception. Close tracking shot, mud and grass kicked up by the movement, subtle golden magical trails around the ball, realistic Chinese anime style, cinematic sports action, no sound.
+### 建议时长
+4 秒
 
----
+### 参考图
+何立踩球登场参考图
 
-### LEO-TRAILER-04｜闪避过人
+### 镜头设计
+低机位贴地推进，镜头从足球和球鞋推到眼神。
 
-- 建议时长：4 秒
-- 核心动作：连续变向过人
-- 镜头：横向跟拍
-- 情绪：灵动、压迫
-- 中文提示词：
-何立抢到球后立刻带球连续变向过人，动作融合职业足球假动作与武术步法，脚下小幅快拨球，身体侧转闪避，动作轻快但有爆发力。镜头横向高速跟拍，球体周围出现金色残影轨迹，地面尘土轻微飞扬，写实中国国漫风格，电影感，动作细节丰富，不要声音。
-- English prompt:
-After winning the ball, He Li instantly dribbles and performs rapid directional changes to beat defenders, combining professional football feints with martial-arts stepping, quick small touches on the ball, torso twisting to evade, light but explosive movement. Fast side tracking shot, golden afterimage trails around the ball, slight dust rising from the ground, realistic Chinese anime style, cinematic, rich action detail, no sound.
+### 中文提示词
+成年青年何立站在现代大型足球赛场中央，一只脚稳稳踩住带有金色符文的旧足球。动作设计细节：膝盖微屈，重心下压，身体前倾很轻，肩颈放松但有压迫感，一只手自然下垂，另一只手略微张开用于平衡，最后抬眼看向前方。镜头从低机位贴地推进，先拍到旧球鞋、足球和草地细节，再缓慢上移到何立上半身和眼神。运镜稳，服务动作，突出主角气场，画面清晰、精致、动作电影质感。
 
 ---
 
-### LEO-TRAILER-05｜高速带球突破
+## LEO-TRAILER-03｜近身压迫式控球
 
-- 建议时长：5 秒
-- 核心动作：长距离带球冲阵
-- 镜头：侧前方追踪
-- 情绪：热血、推进
-- 中文提示词：
-何立高速带球直线突破防线，身体前倾，步伐有力，像武者冲阵一样杀入空档，脚下控球精准，速度感极强。镜头从侧前方追踪拍摄，随后微微拉广，展示两侧防守球员被甩开，足球表面符文发出金色微光，空气中有淡淡气劲轨迹，写实中国国漫风格，电影感，劲爆热血，不要声音。
-- English prompt:
-He Li bursts forward dribbling at high speed, body leaning forward, powerful stride, charging into the gap like a warrior breaking a formation, precise ball control and strong speed sensation. Side-front tracking shot that widens slightly to show defenders being left behind on both sides, golden micro-glow runes on the ball, faint energy flow in the air, realistic Chinese anime style, cinematic, explosive and hot-blooded, no sound.
+### 建议时长
+4 秒
 
----
+### 参考图
+近身压迫式控球参考图
 
-### LEO-TRAILER-06｜腾空控球
+### 镜头设计
+中近景跟拍，保持人物和足球都清楚。
 
-- 建议时长：4 秒
-- 核心动作：起跳，空中控球
-- 镜头：慢动作半环绕
-- 情绪：华丽、杀气
-- 中文提示词：
-何立在高速突破后突然起跳，完成腾空控球动作，足球在脚背和膝部之间短暂控制，身体在空中保持极强稳定性，姿态融合足球技巧和专业武术腾空动作。镜头采用慢动作半环绕运镜，金色阵纹在足球表面短暂亮起，背景云层和赛场灯光被照亮，写实中国国漫风格，电影感，华丽而凌厉，不要声音。
-- English prompt:
-After the breakthrough, He Li suddenly leaps and performs an aerial ball-control move, briefly controlling the ball between the instep and knee, body extremely stable in midair, combining football technique with professional martial-arts airborne movement. Slow-motion semi-orbit camera movement, golden runes briefly lighting up on the ball surface, clouds and stadium lights illuminated in the background, realistic Chinese anime style, cinematic, elegant yet lethal, no sound.
+### 中文提示词
+何立在近身对抗中进行压迫式控球。动作设计细节：支撑腿稳定，控球脚以脚背和脚内侧小幅调整足球位置，躯干微转保护球，肩部下压形成压迫，一只手臂自然张开隔离对手，目光始终盯着前方防守线路。镜头中近景跟拍，跟住他的重心变化和脚下细节，不要过快切换。足球周围有轻微金色球道轨迹，草屑轻微带起。画面清晰锐利，像动作电影中的专业近战预备动作。
 
 ---
 
-### LEO-TRAILER-07｜终极凌空爆射
+## LEO-TRAILER-04｜专业拦截动作
 
-- 建议时长：5 秒
-- 核心动作：腾空爆射
-- 镜头：低机位起跳 + 侧前方慢动作
-- 情绪：炸裂、高潮
-- 中文提示词：
-何立在禁区前完成高难度凌空爆射，踢腿爆发力极强，动作融合武术鞭腿与足球凌空抽射，身体大幅舒展，足球在射出瞬间爆发强烈金色符文光芒，拖出长长能量轨迹，地面泥土和碎草被冲击掀飞。镜头先用低机位捕捉起跳，再切到侧前方慢动作特写，写实中国国漫风格，电影级高潮镜头，极具冲击力，不要声音。
-- English prompt:
-He Li performs a high-difficulty airborne power shot in front of the penalty area, with an extremely explosive leg swing combining a martial-arts whip kick and a football volley, body fully extended, the ball erupts with strong golden rune light the instant it is struck and leaves a long energy trail, mud and grass blast upward from the force. Start with a low-angle takeoff shot, then cut to a slow-motion side-front close-up, realistic Chinese anime style, cinematic climax shot, highly impactful, no sound.
+### 建议时长
+4 秒
 
----
+### 参考图
+专业拦截动作参考图
 
-### LEO-TRAILER-08｜足球飞向球门
+### 镜头设计
+近景跟拍 + 轻微侧移，突出切入和夺球瞬间。
 
-- 建议时长：3 秒
-- 核心动作：足球飞行压迫镜头
-- 镜头：跟球前冲
-- 情绪：紧张、震撼
-- 中文提示词：
-镜头跟随爆射后的足球高速冲向球门，足球表面布满金色符文，空气中留下一道炽烈能量轨迹，球门和守门员在前方迅速逼近，画面带有极强压迫感和速度感。写实中国国漫风格，电影感，视觉冲击强，不要声音。
-- English prompt:
-The camera follows the blasted soccer ball speeding toward the goal, the ball surface covered in golden runes, leaving a blazing energy trail through the air, with the goal and goalkeeper rushing closer in front, creating intense pressure and speed. Realistic Chinese anime style, cinematic, high visual impact, no sound.
+### 中文提示词
+何立面对持球对手，完成专业足球拦截动作。动作设计细节：先压低重心，左肩沉下，右脚斜插切入对手球路，支撑腿稳固，脚内侧精准切球，把球从推进线路上切出，同时上半身保持紧凑，双臂自然展开维持平衡和空间控制。镜头采用近景跟拍并轻微侧移，清楚展示切入角度、脚步节奏和夺球瞬间。草屑和空气颗粒被脚步带起，足球周围有细微金色光轨。画面明亮、清晰、动作专业、真人动作电影质感。
 
 ---
 
-### LEO-TRAILER-09｜片尾海报动态收束
+## LEO-TRAILER-05｜连续变向过人
 
-- 建议时长：3 秒
-- 核心动作：能量收束，定格片尾海报
-- 镜头：轻微推近
-- 情绪：庄严、热血、期待
-- 中文提示词：
-将《凡人足球》片尾宣传海报制作成动态收尾镜头，金色能量余波在画面中缓慢扩散后收束，何立与球场主体逐渐稳定，镜头轻微推近，符文缓慢旋转，微小光点下落，整体氛围从激烈转为庄严热血，写实中国国漫风格，电影感，适合作为宣传片片尾，不要文字，不要声音。
-- English prompt:
-Turn the ending poster of Mortal Ball into a dynamic closing shot, golden energy ripples slowly expanding and then settling, He Li and the stadium composition stabilizing, camera slightly pushing in, runes slowly rotating, tiny glowing particles falling, the mood shifting from explosive to solemn and passionate, realistic Chinese anime style, cinematic, ideal as a trailer ending, no text, no sound.
+### 建议时长
+4 秒
 
----
+### 参考图
+连续变向过人参考图
 
-## 推荐剪辑顺序
+### 镜头设计
+横向跟拍，镜头速度跟上人物速度，但不模糊主体。
 
-1. LEO-TRAILER-01｜片头海报动态开场
-2. LEO-TRAILER-02｜踩球登场
-3. LEO-TRAILER-03｜武术式抢球
-4. LEO-TRAILER-04｜闪避过人
-5. LEO-TRAILER-05｜高速带球突破
-6. LEO-TRAILER-06｜腾空控球
-7. LEO-TRAILER-07｜终极凌空爆射
-8. LEO-TRAILER-08｜足球飞向球门
-9. LEO-TRAILER-09｜片尾海报动态收束
+### 中文提示词
+何立高速带球完成连续变向过人。动作设计细节：先用外脚背轻拨球制造假向，上半身向一侧虚晃，随后胯部快速转换，支撑脚踩稳，另一脚以内侧快速把球拉回，再接下一次变向，身体侧转闪避防守。整套动作要像专业足球突破结合武术闪身步法，强调肩部假动作、腰胯转换、脚下频率和瞬时启动。镜头横向跟拍，清楚看到脚步、球和躯干联动。金色轨迹围绕脚和球流动，画面明亮精致、速度感强。
 
 ---
 
-## 制作建议
+## LEO-TRAILER-06｜高速带球突破
 
-1. 每条片段单独生成，不要一次混生成。
-2. 如果人物脸跑偏，优先提高角色参考图权重。
-3. 如果特效过重，删减 energy、explosion、magic burst 等词，保留 subtle golden rune trails。
-4. 如果动作不够专业，强化关键词：
-   - professional football action
-   - martial arts footwork
-   - realistic body mechanics
-   - explosive athletic movement
-5. 片头和片尾海报动态镜头建议各生成 2—3 个版本，择优使用。
+### 建议时长
+5 秒
+
+### 参考图
+高速带球突破参考图
+
+### 镜头设计
+侧前方追踪，后段轻微拉广，强调冲刺空间感。
+
+### 中文提示词
+何立高速带球向前突破。动作设计细节：身体前倾，重心压低，步幅逐渐变大，控球脚每一步都用小触球维持球与身体的最佳距离，手臂有节奏摆动保持速度和平衡，核心稳定，目光锁定前方空档。动作要像职业足球冲刺带球，同时带有动作电影式冲阵感。镜头从侧前方追踪，后段轻微拉广，展示他把防守球员甩在身后。草地运动痕迹清楚，淡金色气劲轨迹沿着前进方向流动，画面清晰、锐利、专业、热血。
+
+---
+
+## LEO-TRAILER-07｜腾空控球
+
+### 建议时长
+4 秒
+
+### 参考图
+腾空控球参考图
+
+### 镜头设计
+慢动作半环绕，突出空中姿态和足球停留瞬间。
+
+### 中文提示词
+何立在高速推进后起跳完成腾空控球。动作设计细节：最后一步明显蓄力，支撑腿蹬地清楚，起跳后核心收紧，抬膝控制足球，足球在脚背与膝部之间形成短暂停留，双臂自然展开维持空中平衡，目光始终锁定足球和落点。镜头采用慢动作半环绕，重点展示空中停球、身体稳定性和动作完成度。足球表面短暂亮起精致金色阵纹，周围有清晰但不夸张的能量环。画面清晰锐利，像动作电影中的空中技巧高潮前奏。
+
+---
+
+## LEO-TRAILER-08｜终极凌空射门
+
+### 建议时长
+5 秒
+
+### 参考图
+终极凌空射门参考图
+
+### 镜头设计
+低机位拍起跳，随后切到侧前方慢动作特写，运镜必须服务射门动作。
+
+### 中文提示词
+何立完成高难度凌空射门。动作设计细节必须清楚：空中调整身体角度，支撑侧肩略微后拉，核心收紧，摆腿从髋部带动大腿摆出，膝关节顺势展开，脚背绷直，以专业凌空抽射方式击中足球中下部；另一条腿自然收折平衡，双臂一前一后维持空中结构。射门动作要融合职业足球爆射与武术发力链条，强调髋部发力、摆腿轨迹、击球点和空中收势。镜头先用低机位捕捉起跳，再切到侧前方慢动作特写，清楚展示击球瞬间。足球离脚时释放出清晰高级的金色符文光轨，草屑和空气颗粒被气流带起。画面明亮、清晰、震撼，是真人动作电影高潮镜头。
+
+---
+
+## LEO-TRAILER-09｜足球飞向球门
+
+### 建议时长
+3 秒
+
+### 参考图
+足球飞向球门参考图
+
+### 镜头设计
+跟球高速前冲，形成压迫感。
+
+### 中文提示词
+镜头跟随带有金色符文的足球高速飞向球门。动作设计重点不在人物，而在运动镜头：足球锐利清晰，能量轨迹优雅稳定，球门和守门员迅速逼近，画面有很强的速度感和压迫感。镜头必须稳，服务球路，不要晃乱。空气颗粒与光轨层次清楚，背景球场灯光和看台快速后移，整体像动作电影中的高速主观追踪镜头，清晰、精致、强冲击力。
+
+---
+
+## LEO-TRAILER-10｜片尾海报动态收束
+
+### 建议时长
+3 秒
+
+### 参考图
+片尾宣传海报
+
+### 镜头设计
+轻微推近，收束气势，形成片尾定格。
+
+### 中文提示词
+使用片尾宣传海报作为参考，生成片尾收束镜头。足球飞出后的金色能量余波缓慢扩散再收束，何立与球场主体逐渐稳定，镜头轻微推近，空中有少量金色光点下落。动作很小，但整体要有大战后收势的庄严感和热血余韵，像动作电影预告片结尾。画面清晰、精致、蓝金色调、真人电影质感，不要文字，不要声音。
+
+---
+
+## 四、推荐剪辑顺序
+
+1. LEO-TRAILER-01 片头海报动态开场
+2. LEO-TRAILER-02 踩球登场
+3. LEO-TRAILER-03 近身压迫式控球
+4. LEO-TRAILER-04 专业拦截动作
+5. LEO-TRAILER-05 连续变向过人
+6. LEO-TRAILER-06 高速带球突破
+7. LEO-TRAILER-07 腾空控球
+8. LEO-TRAILER-08 终极凌空射门
+9. LEO-TRAILER-09 足球飞向球门
+10. LEO-TRAILER-10 片尾海报动态收束
+
+---
+
+## 五、当前结论
+
+本文件的目标，是把宣传片视频生成方向彻底改为：
+
+**真人动作电影质感 + 专业动作设计 + 运镜服务动作 + 清晰锐利高质量画面。**
